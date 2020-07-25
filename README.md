@@ -1,2 +1,2 @@
 # leetcodePractice
-leetcode练习1
+leetcode练习122
