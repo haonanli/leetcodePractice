@@ -2,15 +2,17 @@
 # @Project  :pythonfile
 # @File     :problem_3
 # @Date     :2020/7/16 0:30
+# https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
+# 左右指针类问题
 
 def func(item):
     length = len(item)
     left = 0
     right = 0
-    max_str = []
+    max_str = ""
     max_str_len = 0
 
-    cur_str=[]
+    cur_str=""
     for i in range(length):
         right = i
 

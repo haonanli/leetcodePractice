@@ -3,6 +3,7 @@
 # @File     :problem_5
 # @Date     :2020/7/27 23:39
 # https://leetcode-cn.com/problems/longest-palindromic-substring/
+# DP类型
 import pandas as pd
 
 
